@@ -39,4 +39,5 @@ describe('AppointmentsDayView', () => {
     render(<AppointmentsDayView appointments={[]} />);
     expect(container.querySelector('div#appointmentsDayView')).not.toBeNull();
   });
+
 });
