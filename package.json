@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "Telmo Sampaio",
@@ -13,7 +14,10 @@
     "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
-    "jest": "^26.6.0"
+    "babel-loader": "^8.1.0",
+    "jest": "^26.6.0",
+    "webpack": "^5.3.0",
+    "webpack-cli": "^4.1.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
